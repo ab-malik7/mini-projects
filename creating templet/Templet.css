@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: karla;
+    background-color: #e1ebbd;
+
+}
+
+
+.whole-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+#card {
+    width: 560px;
+    height: 430px;
+    background-color: #f8fce9;
+    box-shadow: 5px 6px 30px -1px rgba(0, 0, 0, 0.56);
+    border-radius: 10px;
+    overflow: hidden;
+    /* (this overflow hidden is for bottom radius rounded corner) */
+
+    /* this can also work */
+    /* position: absolute;
+    top: 15%;
+    left: 30%; */
+
+}
+
+
+.top-section {
+    width: 100%;
+    height: 45%;
+    padding: 25px;
+}
+
+.toph2 {
+    color: #2FC4C2;
+    margin-bottom: 20px;
+}
+
+.toph4 {
+    color: #c0df34;
+    margin-bottom: 15px;
+}
+
+.toppara {
+    color: rgb(93, 92, 92);
+    line-height: 25px;
+    font-size: 0.9rem;
+}
+
+.botm-section {
+    display: flex;
+    width: 100%;
+    height: 55%;
+    color: white;
+}
+
+.botm-left {
+    width: 50%;
+    height: 100%;
+    background-color: #2FC4C2;
+    padding: 30px;
+}
+
+.botmh4left {
+    font-size: 1.2rem;
+
+}
+
+.pricediv {
+    display: flex;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+
+.per-month {
+    margin-top: 25px;
+    margin-left: 22px;
+}
+
+.pricepara {
+    margin-top: 11px;
+    font-size: 0.85rem;
+}
+
+.botm-right {
+    width: 50%;
+    height: 100%;
+    background-color: #31cecc;
+    padding: 25px;
+
+}
+
+button {
+    color: white;
+    width: 90%;
+    height: 34px;
+    background-color: #c0df34;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 5px 6px 30px -1px rgba(0, 0, 0, 0.41);
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #a3ba3c;
+    transform: scale(1.09);
+
+
+}
+
+.botmh4right {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 0.89rem;
+    margin-bottom: 2px;
+}
+
+
+
